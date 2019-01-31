@@ -27,7 +27,8 @@ angular.module('updateMeta', []);
         'sizes',
         'target',
         'title',
-        'type'
+        'type',
+        'canonical'
       ];
 
       var queryAttributes = ['id', 'rel'];
@@ -60,7 +61,8 @@ angular.module('updateMeta', []);
         sizes: '@?',
         target: '@?',
         title: '@?',
-        type: '@?'
+        type: '@?',
+        canonical:'@?'
       },
       link: function(scope, iElem, iAttrs) {
 
