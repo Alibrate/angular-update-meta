@@ -1,11 +1,8 @@
 {
-  "name": "angular-update-meta",
-  "version": "2.1.0",
+  "name": "@alibrate/angular-update-meta",
+  "version": "2.2.0",
   "main": "dist/update-meta.js",
-  "author": {
-    "name": "Jurgen Van de Moere",
-    "email": "jurgen.van.de.moere@gmail.com"
-  },
+  "author": "Jurgen Van de Moere <jurgen.van.de.moere@gmail.com>",
   "scripts": {
     "test": "gulp test-dist-minified"
   },
@@ -32,5 +29,19 @@
   },
   "engines": {
     "node": ">=0.8.0"
-  }
+  },
+  "description": "Dynamically update meta tags and document title for SEO purposes in your AngularJS application.",
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alibrate/angular-update-meta.git"
+  },
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Alibrate/angular-update-meta/issues"
+  },
+  "homepage": "https://github.com/Alibrate/angular-update-meta#readme"
 }
