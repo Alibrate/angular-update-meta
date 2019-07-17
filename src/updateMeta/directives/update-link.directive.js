@@ -21,7 +21,8 @@
         'target',
         'title',
         'type',
-        'canonical'
+        'canonical',
+        'amphtml'
       ];
 
       var queryAttributes = ['id', 'rel'];
@@ -55,7 +56,8 @@
         target: '@?',
         title: '@?',
         type: '@?',
-        canonical:'@?'
+        canonical:'@?',
+        amphtml:'@?'
       },
       link: function(scope, iElem, iAttrs) {
 
