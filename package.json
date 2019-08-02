@@ -1,6 +1,6 @@
 {
   "name": "@alibrate/angular-update-meta",
-  "version": "2.2.0",
+  "version": "2.2.1",
   "main": "dist/update-meta.js",
   "author": "Jurgen Van de Moere <jurgen.van.de.moere@gmail.com>",
   "scripts": {
