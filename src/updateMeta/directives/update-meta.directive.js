@@ -18,7 +18,8 @@
         httpEquiv: '@',
         scheme: '@',
         property: '@',
-        itemprop: '@'
+        itemprop: '@',
+	robots: '@'
       },
       link: function(scope, iElem, iAttrs) {
         var selector;
@@ -38,6 +39,10 @@
         if(scope.itemprop) {
           selector = 'meta[itemprop="' + scope.itemprop + '"]';
         }
+
+	if(scope.robots) {
+          selector = 'meta[robots="' + scope.robots + '"]';
+	}
 
         // watch the content parameter and set the changing value as needed
         scope.$watch('content', function (newValue, oldValue) {
